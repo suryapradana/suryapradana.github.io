@@ -1,0 +1,42 @@
+/* CV and portfolio content, using the existing theme. */
+.profile-section { padding: 64px 0; }
+.profile-section .container { max-width: 1100px; }
+.profile-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 24px 0; }
+.hero-wrap .author-info-signature { max-width: 1050px; }
+.hero-wrap .author-info-signature h1.mb-4 { font-size: clamp(28px, 4vw, 46px); line-height: 1.3; }
+.experience-card { padding: 28px; border-left: 3px solid #8a7132; background: #fff; margin-bottom: 24px; }
+.experience-date, .project-category { color: #806729; font-size: 14px; font-weight: 500; }
+.experience-card h3, .portfolio-card h3 { font-size: 23px; }
+.experience-card h4 { font-size: 18px; color: #555; }
+.experience-card ul { padding-left: 20px; margin-bottom: 0; }
+.experience-card li { margin-bottom: 8px; }
+.skill-tags { display: flex; flex-wrap: wrap; gap: 10px; }
+.skill-tags span { background: #f2f2f2; border-radius: 4px; color: #444; padding: 6px 14px; }
+.portfolio-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.portfolio-card { display: flex; flex-direction: column; padding: 28px; border: 1px solid #e4e4e4; border-radius: 8px; background: #fff; }
+.portfolio-card a { margin-top: auto; font-weight: 500; color: #806729; }
+.portfolio-heading { padding-top: 40px; padding-bottom: 24px; }
+.contact-info .info { width: 100%; overflow-wrap: anywhere; }
+#colorlib-aside #colorlib-logo a { font-size: 32px; }
+a:focus-visible { outline: 3px solid #8a7132; outline-offset: 4px; }
+@media (max-width: 767px) {
+ .portfolio-grid { grid-template-columns: 1fr; }
+ .profile-section { padding: 40px 0; }
+ .experience-card, .portfolio-card { padding: 22px; }
+ .hero-wrap .js-fullheight { height: auto !important; min-height: 100vh; }
+ .contact-info .info { margin-bottom: 12px; }
+}
+
+.profile-section p, .profile-section li { color: #626262; }
+.profile-section .experience-date, .profile-section .project-category { color: #806729; }
+.colorlib-nav-toggle { background: rgba(255, 255, 255, .94); border-radius: 4px; }
+
+.hero-wrap .author-info-signature p { color: #626262; }
+.hero-wrap .author-info-signature h1.mb-4 { color: #806729; }
+.profile-actions .btn-primary { background: #806729; border-color: #806729; color: #fff; }
+.profile-actions .btn-outline-primary { color: #806729; border-color: #806729; }
+.profile-actions .btn-outline-primary:hover { background: #806729; color: #fff; }
+@media (max-width: 767px) {
+ .ftco-bread { padding-top: 80px !important; }
+ .hero-wrap .author-info-signature { padding-top: 85px !important; }
+}
