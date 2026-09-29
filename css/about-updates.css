@@ -1,0 +1,19 @@
+/* Keep the original theme and timeline; fit the updated CV descriptions. */
+#experience .tab-pane .list { max-width: 760px; list-style: none; padding-left: 0; }
+#experience .tab-pane .list:before, #experience .tab-pane .list > li > span { left: 29%; }
+#experience .tab-pane .list .media > .d-flex { flex: 0 0 34%; padding-right: 55px; }
+#experience .tab-pane .list .media-body { min-width: 0; }
+#experience .tab-pane .list .media-body p { color: #fff; }
+.cv-skills-details { margin-top: 24px; }
+.cv-skills-details h4 { font-size: 18px; }
+#recent-work .wel_item h4 { font-size: 24px; }
+@media (max-width: 767px) {
+ #experience .tab-pane .list:before, #experience .tab-pane .list > li > span { left: 8px; }
+ #experience .tab-pane .list > li { padding-left: 32px; }
+ #experience .tab-pane .list .media { display: block; }
+ #experience .tab-pane .list .media > .d-flex { padding-right: 0; margin-bottom: 16px; }
+ #experience .nav.nav-tabs { margin-bottom: 40px; }
+ #experience .nav.nav-tabs li a { padding: 0 18px; }
+ .hero-wrap .author-info { padding-top: 65px !important; }
+ #section-counter .btn { margin: 8px; }
+}
